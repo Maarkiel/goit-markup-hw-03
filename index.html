@@ -1,99 +1,194 @@
 <!DOCTYPE html>
 <html lang="pl">
-  <!--head-->
   <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Homework 3 - main page</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" 
-    integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" 
-    crossorigin="anonymous" 
-    referrerpolicy="no-referrer" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/style.css">  
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link href="css/style.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Studio</title>
   </head>
   <body>
-    <!--header nav-->
-    <header>
-      <a href="./" class="link"><span class="web">Web</span><span class="studio">Studio</span></a>
-      <nav>
-        <a href="/" class="navigation">Agencja</a>
-        <a href="./portfolio.html" class="navigation">Portfolio</a>
-        <a href="./kontakt" class="navigation">Kontakt</a>
-      </nav>
-      <a href="mailto:info@devstudio.com" class="mail">info@devstudio.com</a>
-      <a href="tel:+48111111111" class="tel">+48 111 111 111</a>
+    <!-- HEADER -->
+    <header class="header-line">
+      <div class="header container">
+        <nav class="navigation">
+          <a class="logo" href="index.html" title="Strona główna"
+            ><span class="brand-color-blue">Web</span>Studio</a
+          >
+          <ul class="menu-list list">
+            <li class="menu-item">
+              <a class="menu-link" href="index.html">Agencja</a>
+            </li>
+            <li class="menu-item">
+              <a class="menu-link" href="portfolio.html">Portfolio</a>
+            </li>
+            <li class="menu-item"><a class="menu-link" href="#">Kontakt</a></li>
+          </ul>
+        </nav>
+        <ul class="contact-list">
+          <li class="contact-item">
+            <a href="mailto:info@devstudio.com" class="contact-link">info@devstudio.com</a>
+          </li>
+          <li class="contact-item">
+            <a href="tel:+48111111111" class="contact-link">+48 111 111 111</a>
+          </li>
+        </ul>
+      </div>
     </header>
+    <!-- END HEADER -->
     <main>
-      <h1 class="soltion">EFEKTYWNE ROWIĄZANIA DLA WASZEGO BIZNESU</h1>
-      <button type="button" class="button">Zamów usługę</button>
-      <!--description-->
-      <section>
-        <ul>
-          <li>
-            <p class="advantages">LOREM IPSUM</p>
-            <p class="advantages__description">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
-              arcu sem. Sed non sodales dui. Interdum et malesuada
+      <!-- HERO -->
+      <section class="hero section">
+        <div class="hero-content">
+          <h1 class="hero-title">Efektywne rozwiązania dla waszego biznesu</h1>
+          <button type="button" class="hero-btn">Zamów usługę</button>
+        </div>
+      </section>
+      <!-- END HERO -->
+      <!-- ADVANTAGES -->
+      <section class="advantages section container">
+        <ul class="advantages-list list">
+          <li class="advantages-item">
+            <h3 class="advantages-title">Lorem ipsum</h3>
+            <p class="advantages-text">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad cum neque ipsam maiores
+              voluptates debitis tenetur deserunt asperiores animi dolorem.
             </p>
           </li>
-          <li>
-            <p class="advantages">LOREM IPSUM</p>
-            <p class="advantages__description">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
-              arcu sem. Sed non sodales dui. Interdum et malesuada
+          <li class="advantages-item">
+            <h3 class="advantages-title">Lorem ipsum</h3>
+            <p class="advantages-text">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad cum neque ipsam maiores
+              voluptates debitis tenetur deserunt asperiores animi dolorem.
             </p>
           </li>
-          <li>
-            <p class="advantages">LOREM IPSUM</p>
-            <p class="advantages__description">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
-              arcu sem. Sed non sodales dui. Interdum et malesuada
+          <li class="advantages-item">
+            <h3 class="advantages-title">Lorem ipsum</h3>
+            <p class="advantages-text">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad cum neque ipsam maiores
+              voluptates debitis tenetur deserunt asperiores animi dolorem.
             </p>
           </li>
-          <li>
-            <p class="advantages">LOREM IPSUM</p>
-            <p class="advantages__description">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
-              arcu sem. Sed non sodales dui. Interdum et malesuada
+          <li class="advantages-item">
+            <h3 class="advantages-title">Lorem ipsum</h3>
+            <p class="advantages-text">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad cum neque ipsam maiores
+              voluptates debitis tenetur deserunt asperiores animi dolorem.
             </p>
           </li>
         </ul>
       </section>
-      <!--What we do section-->
-      <section>
-        <h2 class="squad">Czym się zajmujemy</h2>
-        <img src="./images/img1.jpg" alt="Keyboard" height="294" width="370" />
-        <img src="./images/img2.jpg" alt="Phone" height="294" width="370" />
-        <img src="./images/img3.jpg" alt="Hex" height="294" width="370" />
+      <!-- END ADVANTAGES -->
+      <!-- OFFER -->
+      <section class="offer section container">
+        <h2 class="studio-head">Czym się zajmujemy</h2>
+        <ul class="offer-list list">
+          <li class="offer-item">
+            <img
+              src="images/img1.jpg"
+              width="370"
+              height="274"
+              alt="Nasze zajęcie numer 1"
+              title="Nasze zajęcie numer 1"
+            />
+          </li>
+          <li class="offer-item">
+            <img
+              src="images/img2.jpg"
+              width="370"
+              height="274"
+              alt="Nasze zajęcie numer 2"
+              title="Nasze zajęcie numer 2"
+            />
+          </li>
+          <li class="offer-item">
+            <img
+              src="images/img3.jpg"
+              width="370"
+              height="274"
+              alt="Nasze zajęcie numer 3"
+              title="Nasze zajęcie numer 3"
+            />
+          </li>
+        </ul>
       </section>
-      <!--our squad-->
-      <section>
-        <h2 class="squad">Nasz zespół</h2>
-        <div>
-          <img src="./images/img4.jpg" alt="Product Desi" height="260" width="270" />
-            <h4 class="squad__title">John Doe</h4>
-            <p class="squad__description">Product Designer</p>
-          <img src="./images/img5.jpg" alt="Frontend Developer" height="260" width="270" />
-            <h4 class="squad__title">John Doe</h4>
-            <p class="squad__description">Frontend Developer</p>
-          <img src="./images/img6.jpg" alt="Marketer" height="260" width="270" />
-            <h4 class="squad__title">John Doe</h4>
-            <p class="squad__description">Marketing</p>
-          <img src="./images/img7.jpg" alt="UI Designer" height="260" width="270" />
-            <h4 class="squad__title">John Doe</h4>
-            <p class="squad__description">UI Designer</p>
-        </div>
+      <!-- END OFFER -->
+      <!-- TEAM -->
+      <section class="team section">
+        <h2 class="studio-head">Nasz zespół</h2>
+        <ul class="team-list list">
+          <li class="team-item">
+            <figure class="team-photo">
+              <img src="images/img4.jpg" width="270" height="260" alt="John Doe" />
+              <figcaption class="team-description">
+                <h3>John Doe</h3>
+                <p class="team-description-text">Product Designer</p>
+              </figcaption>
+            </figure>
+          </li>
+          <li class="team-item">
+            <figure class="team-photo">
+              <img src="images/img5.jpg" width="270" height="260" alt="John Doe" />
+              <figcaption class="team-description">
+                <h3>John Doe</h3>
+                <p class="team-description-text">Frontend Developer</p>
+              </figcaption>
+            </figure>
+          </li>
+          <li class="team-item">
+            <figure class="team-photo">
+              <img src="images/img6.jpg" width="270" height="260" alt="John Doe" />
+              <figcaption class="team-description">
+                <h3>John Doe</h3>
+                <p class="team-description-text">Marketing</p>
+              </figcaption>
+            </figure>
+          </li>
+          <li class="team-item">
+            <figure class="team-photo">
+              <img src="images/img7.jpg" width="270" height="260" alt="John Doe" />
+              <figcaption class="team-description">
+                <h3>John Doe</h3>
+                <p class="team-description-text">UI Designer</p>
+              </figcaption>
+            </figure>
+          </li>
+        </ul>
       </section>
+      <!-- END TEAM -->
     </main>
-    <footer>
-      <a href="./" class="link"><span class="web">Web</span><span class="studio2">Studio</span></a>
-      <p class="adress">m. Warszawa, Aleje Jerozolimskie 21</p>
-      <a href="mailto:info@example.com" class="mail2">info@example.com</a><br />
-      <a href="tel:+48111111111" class="tel2">+48 111 111 111</a><br />
+    <footer class="footer">
+      <div class="container">
+        <a class="logo nofloat" href="index.html" title="Strona główna"
+          ><span class="brand-color-blue">Web</span>Studio</a
+        >
+        <address>
+          <ul class="address-list list">
+            <li class="address-item">m. Warszawa, Aleje Jerozolimskie 21</li>
+            <li class="address-item">
+              <a href="mailto:info@example.com" class="address-link"
+                ><span>info@example.com</span></a
+              >
+            </li>
+            <li class="address-item">
+              <a href="tel:+48111111111" class="address-link">+48 111 111 111</a>
+            </li>
+          </ul>
+        </address>
+      </div>
     </footer>
   </body>
 </html>
