@@ -58,7 +58,7 @@ padding-bottom: 94px;
 list-style-type: none;
 }
 
-.studio-head {
+.studio__head {
 font-size: 36px;
 margin: 0;
 margin-bottom: 50px;
@@ -133,9 +133,9 @@ font-weight: 500;
 color: var(--brand-color-blue);
 }
 
-/* HERO */
+/* CENTRAL */
 
-.hero {
+.central {
 background-color: var(--brand-background-dark);
 padding-top: 200px;
 padding-bottom: 200px;
@@ -144,12 +144,12 @@ justify-content: center;
 align-items: center;
 }
 
-.hero__content {
+.central__content {
 text-align: center;
 width: 700px;
 }
 
-.hero__title {
+.central__title {
 color: var(--brand-color-white);
 text-transform: uppercase;
 font-size: 44px;
@@ -159,7 +159,7 @@ letter-spacing: 0.06em;
 margin-bottom: 30px;
 }
 
-.hero__btn {
+.central__btn {
 color: var(--brand-color-white);
 background-color: var(--brand-color-blue);
 border: none;
@@ -174,9 +174,9 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 border-radius: 4px;
 }
 
-.hero__btn:hover,
-.hero__btn:focus,
-.hero__btn:active {
+.central__btn:hover,
+.central__btn:focus,
+.central__btn:active {
 background-color: var(--brand-color-white);
 color: var(--brand-color-blue);
 }
@@ -216,12 +216,12 @@ color: var(--brand-color-grey);
 text-align: center;
 }
 
-.offer-item {
+.offer__item {
 display: inline-block;
 margin-right: 20px;
 }
 
-.offer-item:last-child {
+.offer__item:last-child {
 margin-right: 0;
 }
 
