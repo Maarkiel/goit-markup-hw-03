@@ -60,7 +60,7 @@ list-style-type: none;
 
 .studio__head {
 font-size: 36px;
-margin: 25px 0;
+margin: 0;
 margin-bottom: 50px;
 padding: 0;
 }
@@ -219,7 +219,6 @@ text-align: center;
 .offer__item {
 display: inline-block;
 margin-right: 20px;
-padding: 10px 0;
 }
 
 .offer__item:last-child {
