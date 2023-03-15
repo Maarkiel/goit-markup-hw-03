@@ -219,6 +219,7 @@ text-align: center;
 .offer__item {
 display: inline-block;
 margin-right: 20px;
+padding: 10px 0;
 }
 
 .offer__item:last-child {
